@@ -52,6 +52,8 @@ The API returns results as [JSON](http://www.json.org/) {% include external-link
 | `results` | List of matching results, dependent on which endpoint was queried. |
 {: class="table"}
 
+You can derive CSV format from the JSON output by using a 3rd party [JSON to CSV converter](https://json-csv.com).
+
 ### Downloads
 
 OpenFDA uses public FDA datasets, but processes the data further before supplying it through the API. During our beta, we are investigating the best ways to offer direct downloads of data provided by the API.
